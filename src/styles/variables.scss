@@ -1,0 +1,16 @@
+$font: "Inter", Arial, Helvetica, sans-serif;
+$ligth-color:rgba(255, 255, 255, 0.80);
+$accent-color: #fff;
+$main-background: linear-gradient(153deg, #36603E 35.82%, #1E262C 107.75%);
+
+@mixin flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
